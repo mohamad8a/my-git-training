@@ -10,3 +10,92 @@ body {
         justify-content: flex-end;
     }
 }
+
+@media (max-width:450px) {
+    .header img {
+        max-width: 150px;
+        height: auto;
+    }
+}
+.hero {
+    background: white url(images/hero.jpg) no-repeat center center;
+    background-size: cover;
+
+    width: 100%;
+    height: calc(100vh - 55px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+
+
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+.hero h1 {
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 1;
+    letter-spacing: 12px;
+}
+
+.hero p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.gallery .col-lg-3 {
+    padding-left: 0;
+    padding-right: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .service{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+      display: flex;
+      justify-content:center ;
+      align-items: center;
+      flex-direction: column;
+
+  }
+
+  .service h3{
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(134, 134, 134);
+  }
+
+
+
+  .newsletter{
+    background:white url(images/newslatter.png) no-repeat center center  ;
+    margin-bottom: 30px;
+    height: 250px;
+    background-size: cover; 
+    display:flex;
+    padding: 0px;
+  }
+
+
+
